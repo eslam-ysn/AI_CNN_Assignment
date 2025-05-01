@@ -32,7 +32,7 @@ def read_and_binarize_image(image_path, threshold=128):
 
 if __name__ == "__main__":
     # Test the function manually
-    image_name = "../images/5_0.png"  # Update to match your file (use 0_0.png, 1_0.png, etc.)
+    image_name = "../images/2_0.png"  # Update to match your file (use 0_0.png, 1_0.png, etc.)
 
     if os.path.exists(image_name):
         # Read and binarize the image
